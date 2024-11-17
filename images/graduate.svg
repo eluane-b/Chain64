@@ -1,0 +1,15 @@
+<svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- La partie supérieure du chapeau (le carré) -->
+  <polygon points="12,3 3,9 12,15 21,9" fill="none" stroke="white" stroke-width="1.5"/>
+
+  <!-- La bande autour de la tête (invisible, pas nécessaire) -->
+
+  <!-- La partie inférieure du chapeau (le cercle de maintien) -->
+  <ellipse cx="12" cy="12" rx="5" ry="1.5" fill="none" stroke="white" stroke-width="1.5"/>
+
+  <!-- La corde du chapeau -->
+  <line x1="12" y1="9" x2="16" y2="18" stroke="white" stroke-width="1.5"/>
+
+  <!-- Le pompon -->
+  <circle cx="16" cy="18" r="0.8" fill="white"/>
+</svg>

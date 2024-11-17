@@ -21,7 +21,7 @@
   --base-color-neutral--neutral-lighter: #ccc;
   --base-color-neutral--neutral-light: #9fa6ad;
   --base-color-neutral--neutral: #666;
-  --base-color-neutral--neutral-dark: #32383e;
+  --base-color-neutral--neutral-dark: #3a2654; /* before : #32383e */
   --base-color-system--success-green: #027a48;
   --base-color-system--success-green-light: #ecfdf3;
   --base-color-system--error-red: #b42318;

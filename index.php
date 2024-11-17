@@ -15,7 +15,7 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/webflow.css" rel="stylesheet" type="text/css"/>
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+	<link href="https://fonts.googleapis.com" rel="preconnect"/>
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js?v=202410220000" type="text/javascript"></script>
     <script type="text/javascript">
@@ -258,13 +258,14 @@
               </div>
             </div>
           </section>
+		  <!-- [MENU] - NORMAL -->
           <div class="navbar_container">
             <a href="#Hero" class="navbar_logo-link w-nav-brand"
               ><img loading="lazy" src="images/chain64-full-logo.svg" alt="" class="navbar_logo"/></a>
             <nav role="navigation" id="w-node-_489e39d6-d925-9ceb-1e1c-f3a713992875-cacf2ea2" class="navbar_menu is-page-height-tablet w-nav-menu">
-              <a href="#ecosystem" class="navbar_link w-nav-link">Nos missions</a>
-              <a href="#pricing" class="navbar_link w-nav-link">RDV</a>
-              <a href="#testimonials" class="navbar_link w-nav-link">Témoignages</a>
+              <a href="#missions" class="navbar_link w-nav-link">Nos missions</a>
+              <a href="#cours" class="navbar_link w-nav-link">Cours</a>
+              <a href="#temoignages" class="navbar_link w-nav-link">Témoignages</a>
               <div class="margin-top margin-huge hide-desktop">
                 <a data-w-id="25c835f5-6edc-8717-a5f7-6cbf382a917e" href="#" class="button is-small is-icon w-inline-block">
                   <div class="text-size-regular">Devenir membre</div>
@@ -356,6 +357,30 @@
               </div>
             </div>
           </div>
+		  <!-- [MENU] - MOBILE -->
+		  <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0" style="display: none;">
+		  <nav role="navigation" id="w-node-_489e39d6-d925-9ceb-1e1c-f3a713992875-cacf2ea2" class="navbar_menu is-page-height-tablet w-nav-menu" style="transition: height 0.5s, transform 400ms; transform: translateY(0px) translateX(0px);" data-nav-menu-open="">
+              <a href="#missions" class="navbar_link w-nav-link w--nav-link-open">Nos missions</a>
+              <a href="#cours" class="navbar_link w-nav-link w--nav-link-open">Cours</a>
+              <a href="#temoignages" class="navbar_link w-nav-link w--nav-link-open">Témoignages</a>
+              <div class="margin-top margin-huge hide-desktop">
+                <a data-w-id="25c835f5-6edc-8717-a5f7-6cbf382a917e" href="#" class="button is-small is-icon w-inline-block">
+                  <div class="text-size-regular">Create Talent Passport</div>
+                  <div class="button-icon-wrapper">
+                    <div style="transform: translate3d(-2rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="icon-embed-xsmall w-embed">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
+                        <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"></path>
+                      </svg>
+                    </div>
+                    <div style="transform: translate3d(-2rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="icon-embed-xsmall w-embed">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
+                        <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </nav></div>
         </div>
         <header id="Hero" data-w-id="e4cfed09-ee92-ecee-172a-17a8243e51a3" class="section_header">
           <div class="padding-global">
@@ -463,32 +488,7 @@
                       <div class="margin-bottom margin-xsmall">
                         <div class="features_item-title-wrapper">
                           <div class="icon-embed-xsmall w-embed">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 24 25" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
-                              <path
-                                d="M4.125 7.25C4.42337 7.25 4.70952 7.36853 4.9205 7.5795C5.13147 7.79048 5.25 8.07663 5.25 8.375C5.25 8.67337 5.13147 8.95952 4.9205 9.1705C4.70952 9.38147 4.42337 9.5 4.125 9.5C3.82663 9.5 3.54048 9.38147 3.3295 9.1705C3.11853 8.95952 3 8.67337 3 8.375C3 8.07663 3.11853 7.79048 3.3295 7.5795C3.54048 7.36853 3.82663 7.25 4.125 7.25Z"
-                                fill="currentColor"
-                              ></path>
-                              <path
-                                d="M16.875 12.5C17.1734 12.5 17.4595 12.6185 17.6705 12.8295C17.8815 13.0405 18 13.3266 18 13.625C18 13.9234 17.8815 14.2095 17.6705 14.4205C17.4595 14.6315 17.1734 14.75 16.875 14.75C16.5766 14.75 16.2905 14.6315 16.0795 14.4205C15.8685 14.2095 15.75 13.9234 15.75 13.625C15.75 13.3266 15.8685 13.0405 16.0795 12.8295C16.2905 12.6185 16.5766 12.5 16.875 12.5Z"
-                                fill="currentColor"
-                              ></path>
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M7.84835 8.34835C8.55161 7.64509 9.50544 7.25 10.5 7.25C11.4946 7.25 12.4484 7.64509 13.1517 8.34835C13.8549 9.05161 14.25 10.0054 14.25 11C14.25 11.9946 13.8549 12.9484 13.1517 13.6517C12.4484 14.3549 11.4946 14.75 10.5 14.75C9.50544 14.75 8.55161 14.3549 7.84835 13.6517C7.14509 12.9484 6.75 11.9946 6.75 11C6.75 10.0054 7.14509 9.05161 7.84835 8.34835ZM10.5 8.75C9.90326 8.75 9.33097 8.98705 8.90901 9.40901C8.48705 9.83097 8.25 10.4033 8.25 11C8.25 11.5967 8.48705 12.169 8.90901 12.591C9.33097 13.0129 9.90326 13.25 10.5 13.25C11.0967 13.25 11.669 13.0129 12.091 12.591C12.5129 12.169 12.75 11.5967 12.75 11C12.75 10.4033 12.5129 9.83097 12.091 9.40901C11.669 8.98705 11.0967 8.75 10.5 8.75Z"
-                                fill="currentColor"
-                              ></path>
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M0.65901 4.90901C1.08097 4.48705 1.65326 4.25 2.25 4.25H18.75C19.3467 4.25 19.919 4.48705 20.341 4.90901C20.7629 5.33097 21 5.90326 21 6.5V15.5C21 16.0967 20.7629 16.669 20.341 17.091C19.919 17.5129 19.3467 17.75 18.75 17.75H2.25C1.65326 17.75 1.08097 17.5129 0.65901 17.091C0.237053 16.669 0 16.0967 0 15.5V6.5C0 5.90326 0.237053 5.33097 0.65901 4.90901ZM2.25 5.75C2.05109 5.75 1.86032 5.82902 1.71967 5.96967C1.57902 6.11032 1.5 6.30109 1.5 6.5V15.5C1.5 15.6989 1.57902 15.8897 1.71967 16.0303C1.86032 16.171 2.05109 16.25 2.25 16.25H18.75C18.9489 16.25 19.1397 16.171 19.2803 16.0303C19.421 15.8897 19.5 15.6989 19.5 15.5V6.5C19.5 6.30109 19.421 6.11032 19.2803 5.96967C19.1397 5.82902 18.9489 5.75 18.75 5.75H2.25Z"
-                                fill="currentColor"
-                              ></path>
-                              <path
-                                d="M24 9.5C24 9.08579 23.6642 8.75 23.25 8.75C22.8358 8.75 22.5 9.08579 22.5 9.5V18.5C22.5 18.6989 22.421 18.8897 22.2803 19.0303C22.1397 19.171 21.9489 19.25 21.75 19.25H5.25C4.83579 19.25 4.5 19.5858 4.5 20C4.5 20.4142 4.83579 20.75 5.25 20.75H21.75C22.3467 20.75 22.919 20.5129 23.341 20.091C23.7629 19.669 24 19.0967 24 18.5V9.5Z"
-                                fill="currentColor"
-                              ></path>
-                            </svg>
+                            <img src="images/meetups.svg" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <h3 blocks-non-deletable="true">Les meetups Chain64</h3>
                         </div>
@@ -504,37 +504,7 @@
                       <div class="margin-bottom margin-xsmall">
                         <div class="features_item-title-wrapper">
                           <div class="icon-embed-xsmall w-embed">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 24 25" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
-                              <g clip-path="url(#clip0_4127_1101)">
-                                <path
-                                  d="M0.65901 1.15901C1.08097 0.737053 1.65326 0.5 2.25 0.5H21.75C22.3467 0.5 22.919 0.737053 23.341 1.15901C23.7629 1.58097 24 2.15326 24 2.75V14.75C24 15.3467 23.7629 15.919 23.341 16.341C22.919 16.7629 22.3467 17 21.75 17H15.75C15.3358 17 15 16.6642 15 16.25C15 15.8358 15.3358 15.5 15.75 15.5H21.75C21.9489 15.5 22.1397 15.421 22.2803 15.2803C22.421 15.1397 22.5 14.9489 22.5 14.75V2.75C22.5 2.55109 22.421 2.36032 22.2803 2.21967C22.1397 2.07902 21.9489 2 21.75 2H2.25C2.05109 2 1.86032 2.07902 1.71967 2.21967C1.57902 2.36032 1.5 2.55109 1.5 2.75V9.26C1.5 9.67421 1.16421 10.01 0.75 10.01C0.335786 10.01 0 9.67421 0 9.26V2.75C0 2.15326 0.237053 1.58097 0.65901 1.15901Z"
-                                  fill="currentColor"
-                                ></path>
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M2.17184 10.9578C3.38219 10.3526 5.00183 10 6.75 10C8.49817 10 10.1178 10.3526 11.3282 10.9578C12.4937 11.5406 13.5 12.4844 13.5 13.75V20.75C13.5 22.0173 12.4924 22.9611 11.3264 23.5435C10.1156 24.1482 8.49602 24.5 6.75 24.5C5.00398 24.5 3.38445 24.1482 2.17365 23.5435C1.0076 22.9611 0 22.0173 0 20.75V13.75C0 12.4844 1.0063 11.5406 2.17184 10.9578ZM1.5 19.6511V20.75C1.5 21.1427 1.8374 21.6989 2.84385 22.2015C3.80555 22.6818 5.18602 23 6.75 23C8.31398 23 9.69445 22.6818 10.6561 22.2015C11.6626 21.6989 12 21.1427 12 20.75V19.6511C11.7863 19.7961 11.5595 19.927 11.3264 20.0435C10.1156 20.6482 8.49602 21 6.75 21C5.00398 21 3.38445 20.6482 2.17365 20.0435C1.9405 19.927 1.71369 19.7961 1.5 19.6511ZM12 17.25C12 17.6427 11.6626 18.1989 10.6561 18.7015C9.69445 19.1818 8.31398 19.5 6.75 19.5C5.18602 19.5 3.80555 19.1818 2.84385 18.7015C1.8374 18.1989 1.5 17.6427 1.5 17.25V16.1506C1.71312 16.2953 1.93931 16.4259 2.17184 16.5422C3.38219 17.1474 5.00183 17.5 6.75 17.5C8.49817 17.5 10.1178 17.1474 11.3282 16.5422C11.5607 16.4259 11.7869 16.2953 12 16.1506V17.25ZM2.84266 15.2006C1.8367 14.6976 1.5 14.1414 1.5 13.75C1.5 13.3586 1.8367 12.8024 2.84266 12.2994C3.80381 11.8189 5.18417 11.5 6.75 11.5C8.31583 11.5 9.69619 11.8189 10.6573 12.2994C11.6633 12.8024 12 13.3586 12 13.75C12 14.1414 11.6633 14.6976 10.6573 15.2006C9.69619 15.6811 8.31583 16 6.75 16C5.18417 16 3.80381 15.6811 2.84266 15.2006Z"
-                                  fill="currentColor"
-                                ></path>
-                                <path
-                                  d="M11.3314 6.55459C11.6219 6.45942 11.9287 6.42443 12.2332 6.45178C12.5376 6.47912 12.8333 6.56822 13.1022 6.71363C13.3711 6.85904 13.6076 7.05772 13.7971 7.29754C13.9867 7.53736 14.1254 7.81329 14.2047 8.10849C14.2841 8.4037 14.3025 8.71198 14.2588 9.01452C14.2151 9.31707 14.1102 9.60753 13.9505 9.86819C13.7341 10.2214 13.845 10.6831 14.1982 10.8995C14.5514 11.1159 15.0131 11.005 15.2295 10.6518C15.4957 10.2174 15.6705 9.73327 15.7434 9.22903C15.8162 8.72479 15.7856 8.21099 15.6533 7.71899C15.521 7.22698 15.2898 6.7671 14.9739 6.3674C14.658 5.9677 14.2639 5.63657 13.8158 5.39421C13.3676 5.15186 12.8748 5.00336 12.3674 4.95779C11.8599 4.91222 11.3485 4.97052 10.8644 5.12915C10.3802 5.28778 9.93345 5.5434 9.55136 5.88041C9.16928 6.21742 8.85987 6.62875 8.64202 7.08931C8.46491 7.46375 8.62487 7.91087 8.99931 8.08798C9.37375 8.26509 9.82087 8.10513 9.99798 7.73069C10.1287 7.45436 10.3143 7.20756 10.5436 7.00535C10.7728 6.80314 11.0409 6.64977 11.3314 6.55459Z"
-                                  fill="currentColor"
-                                ></path>
-                                <path
-                                  d="M3.7095 5.8005C3.92048 6.01147 4.20663 6.13 4.505 6.13C4.80337 6.13 5.08952 6.01147 5.3005 5.8005C5.51147 5.58952 5.63 5.30337 5.63 5.005C5.63 4.70663 5.51147 4.42048 5.3005 4.2095C5.08952 3.99853 4.80337 3.88 4.505 3.88C4.20663 3.88 3.92048 3.99852 3.7095 4.2095C3.49852 4.42048 3.38 4.70663 3.38 5.005C3.38 5.30337 3.49853 5.58952 3.7095 5.8005Z"
-                                  fill="currentColor"
-                                ></path>
-                                <path
-                                  d="M19.495 11.37C19.7934 11.37 20.0795 11.4885 20.2905 11.6995C20.5015 11.9105 20.62 12.1966 20.62 12.495C20.62 12.7934 20.5015 13.0795 20.2905 13.2905C20.0795 13.5015 19.7934 13.62 19.495 13.62C19.1966 13.62 18.9105 13.5015 18.6995 13.2905C18.4885 13.0795 18.37 12.7934 18.37 12.495C18.37 12.1966 18.4885 11.9105 18.6995 11.6995C18.9105 11.4885 19.1966 11.37 19.495 11.37Z"
-                                  fill="currentColor"
-                                ></path>
-                              </g>
-                              <defs>
-                                <clippath id="clip0_4127_1101">
-                                  <rect width="24" height="24" fill="currentColor" transform="translate(0 0.5)"></rect>
-                                </clippath>
-                              </defs>
-                            </svg>
+                            <img src="images/nos-experts.svg" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <h3 blocks-non-deletable="true">
                             Nos experts
@@ -552,52 +522,7 @@
                       <div class="margin-bottom margin-xsmall">
                         <div class="features_item-title-wrapper">
                           <div class="icon-embed-xsmall w-embed">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 24 25" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
-                              <g clip-path="url(#clip0_4127_1114)">
-                                <path
-                                  d="M22.5519 8.07014L13.0889 5.05414C12.9637 5.01419 12.8319 4.99932 12.7009 5.01038C12.5699 5.02144 12.4424 5.0582 12.3257 5.11857C12.2089 5.17894 12.1052 5.26173 12.0205 5.3622C11.9358 5.46268 11.8717 5.57887 11.8319 5.70414L7.45692 19.4301C7.41713 19.5553 7.40238 19.687 7.41351 19.8179C7.42464 19.9487 7.46144 20.0761 7.52179 20.1928C7.58215 20.3094 7.66489 20.413 7.76529 20.4976C7.86569 20.5823 7.98177 20.6463 8.10692 20.6861L17.5689 23.7031C17.6941 23.7431 17.826 23.7579 17.957 23.7469C18.0879 23.7358 18.2154 23.6991 18.3322 23.6387C18.4489 23.5783 18.5526 23.4955 18.6373 23.3951C18.7221 23.2946 18.7861 23.1784 18.8259 23.0531L23.1999 9.32814C23.2397 9.20299 23.2545 9.07123 23.2433 8.94037C23.2322 8.80952 23.1954 8.68215 23.1351 8.56552C23.0747 8.44888 22.992 8.34528 22.8916 8.26063C22.7912 8.17598 22.6751 8.11193 22.5499 8.07214L22.5519 8.07014Z"
-                                  stroke="currentColor"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                ></path>
-                                <path
-                                  d="M6.87013 7.25625C7.27504 7.16895 7.5325 6.76992 7.44519 6.36502C7.35788 5.96011 6.95886 5.70265 6.55396 5.78996L1.76796 6.82195L1.76662 6.82225C1.18592 6.94857 0.679082 7.30019 0.357406 7.79988C0.0357303 8.29958 -0.0743863 8.907 0.0510463 9.4879L2.89318 22.6075C3.01951 23.1882 3.37113 23.6951 3.87082 24.0167C4.37052 24.3384 4.97799 24.4485 5.55889 24.3231L12.5359 22.8111C12.9407 22.7234 13.1978 22.3241 13.11 21.9193C13.0223 21.5144 12.623 21.2574 12.2182 21.3451L5.24174 22.857C5.04933 22.8986 4.84828 22.862 4.68275 22.7555C4.51729 22.649 4.40079 22.4809 4.3589 22.2887L1.51709 9.17056C1.47563 8.97821 1.51216 8.77727 1.61867 8.61181C1.72512 8.44644 1.89334 8.32991 2.08547 8.28796L6.87013 7.25625Z"
-                                  fill="currentColor"
-                                ></path>
-                                <path
-                                  d="M3.56299 8.75C3.26462 8.75 2.97847 8.86853 2.76749 9.0795C2.55651 9.29048 2.43799 9.57663 2.43799 9.875C2.43799 10.1734 2.55651 10.4595 2.76749 10.6705C2.97847 10.8815 3.26462 11 3.56299 11C3.86136 11 4.1475 10.8815 4.35848 10.6705C4.56946 10.4595 4.68799 10.1734 4.68799 9.875C4.68799 9.57663 4.56946 9.29048 4.35848 9.0795C4.1475 8.86853 3.86136 8.75 3.56299 8.75Z"
-                                  fill="currentColor"
-                                ></path>
-                                <path
-                                  d="M17.1479 0.501123H8.30456C7.70833 0.494429 7.13234 0.717666 6.69631 1.12459C6.25892 1.53279 5.99621 2.09424 5.96309 2.69161C5.96232 2.70543 5.96194 2.71928 5.96194 2.73312V16.1551V16.1571H6.71194L5.96195 16.1527L5.96194 16.1551C5.9593 16.7046 6.15853 17.2359 6.52182 17.6482C6.88566 18.061 7.38863 18.3257 7.93497 18.3917C8.3462 18.4414 8.71984 18.1483 8.76952 17.7371C8.81921 17.3259 8.52613 16.9522 8.11491 16.9025C7.93409 16.8807 7.76763 16.7931 7.64722 16.6565C7.52681 16.5198 7.46087 16.3437 7.46194 16.1615V2.75725C7.47764 2.55279 7.56952 2.36141 7.71974 2.22122C7.87422 2.07705 8.07843 1.99824 8.28971 2.00112H17.1336C17.3326 2.0102 17.5213 2.09303 17.6626 2.23368C17.8037 2.37392 17.8874 2.56145 17.8979 2.75976V6.82612C17.8979 7.24034 18.2337 7.57612 18.6479 7.57612C19.0622 7.57612 19.3979 7.24034 19.3979 6.82612V2.74312C19.3979 2.73359 19.3978 2.72406 19.3974 2.71453C19.3752 2.13266 19.1333 1.58082 18.7205 1.17018C18.3076 0.759542 17.7545 0.520612 17.1725 0.501526C17.1643 0.501257 17.1561 0.501123 17.1479 0.501123Z"
-                                  fill="currentColor"
-                                ></path>
-                                <path
-                                  d="M9.39697 2.74121C9.0986 2.74121 8.81246 2.85974 8.60148 3.07072C8.3905 3.2817 8.27197 3.56784 8.27197 3.86621C8.27197 4.16458 8.3905 4.45073 8.60148 4.66171C8.81246 4.87269 9.0986 4.99121 9.39697 4.99121C9.69534 4.99121 9.98149 4.87268 10.1925 4.66171C10.4034 4.45073 10.522 4.16458 10.522 3.86621C10.522 3.56784 10.4034 3.28169 10.1925 3.07072C9.98149 2.85974 9.69534 2.74121 9.39697 2.74121Z"
-                                  fill="currentColor"
-                                ></path>
-                                <path
-                                  d="M13.0346 7.23429C13.2456 7.02331 13.5318 6.90479 13.8301 6.90479C14.1285 6.90479 14.4147 7.02331 14.6256 7.23429C14.8366 7.44527 14.9551 7.73142 14.9551 8.02979C14.9551 8.32815 14.8366 8.6143 14.6256 8.82528C14.4147 9.03626 14.1285 9.15479 13.8301 9.15479C13.5318 9.15479 13.2456 9.03626 13.0346 8.82528C12.8237 8.6143 12.7051 8.32815 12.7051 8.02979C12.7051 7.73142 12.8237 7.44527 13.0346 7.23429Z"
-                                  fill="currentColor"
-                                ></path>
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M16.4628 10.8215C16.6877 10.8932 16.8658 11.0666 16.9434 11.2896L18.1694 14.8116C18.279 15.1264 18.1676 15.4758 17.8961 15.6691L14.8581 17.8321C14.6657 17.969 14.4201 18.0074 14.1952 17.9357C13.9703 17.864 13.7922 17.6905 13.7147 17.4675L12.4897 13.9455C12.3802 13.6308 12.4915 13.2816 12.763 13.0882L15.8 10.9252C15.9923 10.7883 16.2378 10.7499 16.4628 10.8215ZM14.0911 13.9838L14.8029 16.0301L16.5678 14.7734L15.8555 12.7272L14.0911 13.9838Z"
-                                  fill="currentColor"
-                                ></path>
-                                <path
-                                  d="M16.8279 19.6021C16.5296 19.6021 16.2434 19.7206 16.0324 19.9316C15.8215 20.1425 15.7029 20.4287 15.7029 20.7271C15.7029 21.0254 15.8215 21.3116 16.0324 21.5225C16.2434 21.7335 16.5296 21.8521 16.8279 21.8521C17.1263 21.8521 17.4125 21.7335 17.6234 21.5225C17.8344 21.3116 17.9529 21.0254 17.9529 20.7271C17.9529 20.4287 17.8344 20.1425 17.6234 19.9316C17.4125 19.7206 17.1263 19.6021 16.8279 19.6021Z"
-                                  fill="currentColor"
-                                ></path>
-                              </g>
-                              <defs>
-                                <clippath id="clip0_4127_1114">
-                                  <rect width="24" height="24" fill="currentColor" transform="translate(0 0.5)"></rect>
-                                </clippath>
-                              </defs>
-                            </svg>
+                            <img src="images/nos-ambitions.svg" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <h3 blocks-non-deletable="true">Nos ambitions</h3>
                         </div>
@@ -615,7 +540,8 @@
             </div>
           </div>
         </section>
-<!--         <section data-w-id="ea6777cd-ef01-da25-7af6-73cc97efc1c3" class="section_logos">
+   <!-- PARTNERSHIPS - DON'T ERASE        
+        <section data-w-id="ea6777cd-ef01-da25-7af6-73cc97efc1c3" class="section_logos">
           <div class="padding-section-medium">
             <div class="padding-global">
               <div class="container-large">
@@ -647,7 +573,7 @@
             </div>
           </div>
         </section> -->
-        <section id="ecosystem" class="section_ecosystem">
+        <section id="missions" class="section_ecosystem">
           <div class="padding-global">
             <div class="container-large">
               <div class="padding-section-large">
@@ -675,8 +601,8 @@
                         <div class="ecosystem_card-content">
                           <div class="ecosystem_card-content-top">
                             <div class="margin-bottom margin-medium">
-                              <div class="ecosystem_item-icon-wrapper">
-                                <!-- <img src="images/basename-logo.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/> -->
+                              <div>
+                                <img src="images/smiley-interrogatif.svg" loading="lazy" alt="" class="ecosystem_item-icon"/>
                                 Découvrir
                               </div>
                             </div>
@@ -709,8 +635,8 @@
                         <div class="ecosystem_card-content">
                           <div class="ecosystem_card-content-top">
                             <div class="margin-bottom margin-medium">
-                              <div class="ecosystem_item-icon-wrapper">
-                                <!-- <img src="images/etherscan-logo.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/> -->
+                              <div>
+                                <img src="images/graduate.svg" loading="lazy" alt="" class="ecosystem_item-icon"/>
                                 Apprendre
                               </div>
                             </div>
@@ -743,8 +669,8 @@
                         <div class="ecosystem_card-content">
                           <div class="ecosystem_card-content-top">
                             <div class="margin-bottom margin-medium">
-                              <div class="ecosystem_item-icon-wrapper">
-                                <!-- <img src="images/onchainscore-logo.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/> -->
+                              <div>
+                                <img src="images/tools.svg" loading="lazy" alt="" class="ecosystem_item-icon"/>
                               Se perfectionner
                               </div>
                             </div>
@@ -780,7 +706,7 @@
             </div>
           </div>
         </section>
-        <section id="pricing" class="section_pricing">
+        <section id="cours" class="section_pricing">
           <div class="padding-global">
             <div class="container-large">
               <div class="padding-section-large">
@@ -822,9 +748,7 @@
                         <div id="w-node-_21498fc4-000d-cc9e-8fed-178ec938555c-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Accès aux meetups</div>
@@ -832,9 +756,7 @@
                         <div id="w-node-_21498fc4-000d-cc9e-8fed-178ec9385561-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Access to most recent Builder Score</div>
@@ -842,9 +764,7 @@
                         <div id="w-node-_21498fc4-000d-cc9e-8fed-178ec9385566-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Full access to user base (1M+)</div>
@@ -852,9 +772,7 @@
                         <div id="w-node-_16ce8592-7df0-6eb1-9213-760c09afe84e-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                             <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                              </svg>
+                             <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>50,000 API calls/month</div>
@@ -862,9 +780,7 @@
                         <div id="w-node-d96c0136-cae3-4ff3-5959-e54048a31cbe-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Basic community support via Telegram</div>
@@ -872,9 +788,7 @@
                         <div id="w-node-_1b05620d-2b16-3b5c-a01b-33ebbaf3b8c8-cacf2ea2" class="pricing_feature is-inactive">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Early access to new features</div>
@@ -882,9 +796,7 @@
                         <div id="w-node-d84e3d36-ee82-735f-3778-3d2e1770a377-cacf2ea2" class="pricing_feature is-inactive">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Create and customize Credentials</div>
@@ -919,87 +831,55 @@
                           <div id="w-node-_3730de92-a215-3e51-2ba9-015e6658452b-cacf2ea2" class="pricing_feature">
                             <div class="pricing_icon-wrapper">
                               <div class="icon-embed-xsmall w-embed">
-                               <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"                                >
-                                  <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                                </svg>
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                               </div>
                             </div>
                             <div>Accès aux meetups</div>
                           </div>
-                          <div
-                            id="w-node-_3730de92-a215-3e51-2ba9-015e66584530-cacf2ea2"
-                            class="pricing_feature"
-                          >
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e66584530-cacf2ea2" class="pricing_feature">
                             <div class="pricing_icon-wrapper">
                               <div class="icon-embed-xsmall w-embed">
-                                <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"                                >
-                                  <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                                </svg>
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                               </div>
                             </div>
                             <div>Access to most recent Builder Score</div>
                           </div>
-                          <div
-                            id="w-node-_3730de92-a215-3e51-2ba9-015e66584535-cacf2ea2"
-                            class="pricing_feature"
-                          >
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e66584535-cacf2ea2" class="pricing_feature">
                             <div class="pricing_icon-wrapper">
                               <div class="icon-embed-xsmall w-embed">
-                                <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"                                >
-                                  <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                                </svg>
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                               </div>
                             </div>
                             <div>Full access to user base (1M+)</div>
                           </div>
-                          <div
-                            id="w-node-_3730de92-a215-3e51-2ba9-015e6658453a-cacf2ea2"
-                            class="pricing_feature"
-                          >
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e6658453a-cacf2ea2" class="pricing_feature">
                             <div class="pricing_icon-wrapper">
                               <div class="icon-embed-xsmall w-embed">
-                                <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"                                >
-                                  <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                                </svg>
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                               </div>
                             </div>
                             <div>500,000 API calls/month</div>
                           </div>
-                          <div
-                            id="w-node-_3730de92-a215-3e51-2ba9-015e6658453f-cacf2ea2"
-                            class="pricing_feature"
-                          >
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e6658453f-cacf2ea2" class="pricing_feature">
                             <div class="pricing_icon-wrapper">
                               <div class="icon-embed-xsmall w-embed">
-                                <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"                                >
-                                  <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                                </svg>
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                               </div>
                             </div>
                             <div>Priority support via Telegram or Email</div>
                           </div>
-                          <div
-                            id="w-node-_3730de92-a215-3e51-2ba9-015e66584544-cacf2ea2"
-                            class="pricing_feature"
-                          >
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e66584544-cacf2ea2" class="pricing_feature">
                             <div class="pricing_icon-wrapper">
                               <div class="icon-embed-xsmall w-embed">
-                                <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"                                >
-                                  <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                                </svg>
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                               </div>
                             </div>
                             <div>Early access to new features</div>
                           </div>
-                          <div
-                            id="w-node-_3730de92-a215-3e51-2ba9-015e66584549-cacf2ea2"
-                            class="pricing_feature is-inactive"
-                          >
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e66584549-cacf2ea2" class="pricing_feature is-inactive">
                             <div class="pricing_icon-wrapper">
                               <div class="icon-embed-xsmall w-embed">
-                                <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"                                >
-                                  <path d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z" fill="currentColor"></path>
-                                </svg>
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                               </div>
                             </div>
                             <div>Create and customize Credentials</div>
@@ -1031,12 +911,7 @@
                         <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a903401-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                  d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z"
-                                  fill="currentColor"
-                                ></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Accès aux meetups</div>
@@ -1044,12 +919,7 @@
                         <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a903406-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                  d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z"
-                                  fill="currentColor"
-                                ></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Access to most recent Builder Score</div>
@@ -1057,12 +927,7 @@
                         <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a90340b-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                  d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z"
-                                  fill="currentColor"
-                                ></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Full access to user base (1M+)</div>
@@ -1070,12 +935,7 @@
                         <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a903410-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                  d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z"
-                                  fill="currentColor"
-                                ></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>2M+ API calls/month</div>
@@ -1083,12 +943,7 @@
                         <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a903415-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                  d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z"
-                                  fill="currentColor"
-                                ></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Premium support on your channel</div>
@@ -1096,12 +951,7 @@
                         <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a90341a-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                  d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z"
-                                  fill="currentColor"
-                                ></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Early access to new features</div>
@@ -1109,12 +959,7 @@
                         <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a90341f-cacf2ea2" class="pricing_feature">
                           <div class="pricing_icon-wrapper">
                             <div class="icon-embed-xsmall w-embed">
-                              <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                  d="M20.3479 7.56384L9.7479 18.1638C9.65402 18.2585 9.52622 18.3117 9.3929 18.3117C9.25958 18.3117 9.13178 18.2585 9.0379 18.1638L3.6479 12.7738C3.55324 12.68 3.5 12.5522 3.5 12.4188C3.5 12.2855 3.55324 12.1577 3.6479 12.0638L4.3479 11.3638C4.44178 11.2692 4.56958 11.2159 4.7029 11.2159C4.83622 11.2159 4.96402 11.2692 5.0579 11.3638L9.3879 15.6938L18.9379 6.14384C19.1357 5.95205 19.4501 5.95205 19.6479 6.14384L20.3479 6.85384C20.4426 6.94772 20.4958 7.07552 20.4958 7.20884C20.4958 7.34216 20.4426 7.46995 20.3479 7.56384Z"
-                                  fill="currentColor"
-                                ></path>
-                              </svg>
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
                             </div>
                           </div>
                           <div>Create and customize Credentials</div>
@@ -1135,7 +980,7 @@
             </div>
           </div>
         </section>
-        <section id="testimonials" class="section_testimonials">
+        <section id="temoignages" class="section_testimonials">
           <div class="padding-global">
             <div class="container-large">
               <div class="padding-section-large">
@@ -1191,7 +1036,7 @@
                       </div>
                       <div class="margin-top margin-xsmall">
                         <div class="testimonials_client">
-                          <div class="ecosystem_item-icon-wrapper">
+                          <div>
                             <img src="images/bonnet-logo.jpg" loading="lazy" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <div class="testimonials_client-info">
@@ -1207,8 +1052,7 @@
                       </div>
                       <div class="margin-top margin-xsmall">
                         <div class="testimonials_client">
-                          <div class="ecosystem_item-icon-wrapper">
-                            <img src="images/celo-logo.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/>
+                          <div>
                           </div>
                           <div class="testimonials_client-info">
                             <div class="text-color-secondary">
@@ -1227,7 +1071,7 @@
                       </div>
                       <div class="margin-top margin-xsmall">
                         <div class="testimonials_client">
-                          <div class="ecosystem_item-icon-wrapper">
+                          <div>
                             <img src="images/eth-global-logo.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <div class="testimonials_client-info">
@@ -1247,7 +1091,7 @@
                       </div>
                       <div class="margin-top margin-xsmall">
                         <div class="testimonials_client">
-                          <div class="ecosystem_item-icon-wrapper">
+                          <div>
                             <img src="images/privy-logo.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <div class="testimonials_client-info">
@@ -1266,7 +1110,7 @@
                       </div>
                       <div class="margin-top margin-xsmall">
                         <div class="testimonials_client">
-                          <div class="ecosystem_item-icon-wrapper">
+                          <div>
                             <img src="images/optimism-logo.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <div class="testimonials_client-info">
@@ -1285,7 +1129,7 @@
                       </div>
                       <div class="margin-top margin-xsmall">
                         <div class="testimonials_client">
-                          <div class="ecosystem_item-icon-wrapper">
+                          <div>
                             <img src="images/logo_icebreaker.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <div class="testimonials_client-info">
@@ -1304,7 +1148,7 @@
                       </div>
                       <div class="margin-top margin-xsmall">
                         <div class="testimonials_client">
-                          <div class="ecosystem_item-icon-wrapper">
+                          <div>
                             <img src="images/degen-logo.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <div class="testimonials_client-info">
@@ -1499,5 +1343,12 @@
         </footer>
       </main>
     </div>
+<script
+src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66d9c51df2bbaa67cacf2e42"
+type="text/javascript"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"
+></script>
+<script src="js/webflow.js?v=202411050000" type="text/javascript"></script>
   </body>
 </html>
