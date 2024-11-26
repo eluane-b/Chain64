@@ -263,11 +263,11 @@
             <a href="#Hero" class="navbar_logo-link w-nav-brand"
               ><img loading="lazy" src="images/chain64-full-logo.svg" alt="" class="navbar_logo"/></a>
             <nav role="navigation" id="w-node-_489e39d6-d925-9ceb-1e1c-f3a713992875-cacf2ea2" class="navbar_menu is-page-height-tablet w-nav-menu">
-              <a href="#missions" class="navbar_link w-nav-link">Nos missions</a>
-              <a href="#cours" class="navbar_link w-nav-link">Cours</a>
+              <a href="#missions" class="navbar_link w-nav-link">L'association</a>
+              <!-- <a href="#cours" class="navbar_link w-nav-link">Cours</a> -->
               <a href="#temoignages" class="navbar_link w-nav-link">Témoignages</a>
               <div class="margin-top margin-huge hide-desktop">
-                <a data-w-id="25c835f5-6edc-8717-a5f7-6cbf382a917e" href="#" class="button is-small is-icon w-inline-block">
+                <a data-w-id="25c835f5-6edc-8717-a5f7-6cbf382a917e" target="_blank" href="https://www.helloasso.com/associations/chain64/adhesions/adhesion-chain64" class="button is-small is-icon w-inline-block">
                   <div class="text-size-regular">Devenir membre</div>
                   <div class="button-icon-wrapper">
                     <div style="
@@ -309,7 +309,7 @@
               </div>
             </nav>
             <div id="w-node-_489e39d6-d925-9ceb-1e1c-f3a713992888-cacf2ea2" class="navbar_button-wrapper">
-              <a data-w-id="f12c222c-508c-33f7-f87f-7392572124db" href="" target="_blank" class="button is-small is-icon hide-mobile-landscape w-inline-block">
+              <a data-w-id="f12c222c-508c-33f7-f87f-7392572124db" href="https://www.helloasso.com/associations/chain64/adhesions/adhesion-chain64" target="_blank" class="button is-small is-icon hide-mobile-landscape w-inline-block">
                 <div>Devenir membre</div>
                 <div class="button-icon-wrapper">
                   <div style="
@@ -360,12 +360,12 @@
 		  <!-- [MENU] - MOBILE -->
 		  <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0" style="display: none;">
 		  <nav role="navigation" id="w-node-_489e39d6-d925-9ceb-1e1c-f3a713992875-cacf2ea2" class="navbar_menu is-page-height-tablet w-nav-menu" style="transition: height 0.5s, transform 400ms; transform: translateY(0px) translateX(0px);" data-nav-menu-open="">
-              <a href="#missions" class="navbar_link w-nav-link w--nav-link-open">Nos missions</a>
-              <a href="#cours" class="navbar_link w-nav-link w--nav-link-open">Cours</a>
+              <a href="#missions" class="navbar_link w-nav-link w--nav-link-open">L'association</a>
+              <!-- <a href="#cours" class="navbar_link w-nav-link w--nav-link-open">Cours</a> -->
               <a href="#temoignages" class="navbar_link w-nav-link w--nav-link-open">Témoignages</a>
               <div class="margin-top margin-huge hide-desktop">
-                <a data-w-id="25c835f5-6edc-8717-a5f7-6cbf382a917e" href="#" class="button is-small is-icon w-inline-block">
-                  <div class="text-size-regular">Create Talent Passport</div>
+                <a data-w-id="25c835f5-6edc-8717-a5f7-6cbf382a917e" href="https://www.helloasso.com/associations/chain64/adhesions/adhesion-chain64" class="button is-small is-icon w-inline-block">
+                  <div class="text-size-regular">Devenir membre</div>
                   <div class="button-icon-wrapper">
                     <div style="transform: translate3d(-2rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="icon-embed-xsmall w-embed">
                       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
@@ -454,24 +454,22 @@
                     <div class="max-width-large align-center">
                       <div class="margin-bottom margin-small">
                         <h1 blocks-non-deletable="true" data-w-id="e4cfed09-ee92-ecee-172a-17a8243e51ac" style="opacity: 1" class="heading-style-h1">
-                          Professional meetups open to everyone for learn.
+                          Des meetups enrichissants et ouvert à tous.
                         </h1>
                       </div>
                       <p data-w-id="e4cfed09-ee92-ecee-172a-17a8243e51ae" style="opacity: 1" class="text-size-medium text-size-large text-color-secondary">
-                        Chain64 brings professional meetups IRL
-                        to make incredible members more visible. Create your
-                        Member Passport in 1 min and discover your perks.
+                        Chain64 offre une excellente occasion d'apprendre et d'échanger sur le web3. Découvrez ainsi l'univers de la blockchain et des cryptomonnaies.
                       </p>
                       <div class="margin-top margin-medium">
                         <div class="button-group is-center">
-                          <a data-w-id="e4cfed09-ee92-ecee-172a-17a8243e51b2" style="opacity: 1" href="" target="_blank" class="button w-button">Devenir membre</a>
+                          <a data-w-id="e4cfed09-ee92-ecee-172a-17a8243e51b2" style="opacity: 1" href="https://www.helloasso.com/associations/chain64/adhesions/adhesion-chain64" target="_blank" class="button w-button">Devenir membre</a>
                           <a data-w-id="e4cfed09-ee92-ecee-172a-17a8243e51b4" style="opacity: 1" href="" target="_blank" class="button is-secondary w-button">Manifeste Chain64</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div data-w-id="e4cfed09-ee92-ecee-172a-17a8243e51b6" style="opacity: 0" class="header_image-wrapper">
-                    <img data-w-id="e4cfed09-ee92-ecee-172a-17a8243e51b7" sizes="90vw" alt="" src="images/none.png" class="header_image bottom-image"/>
+                    <img data-w-id="e4cfed09-ee92-ecee-172a-17a8243e51b7" sizes="90vw" alt="" src="images/croix.png" class="header_image bottom-image"/>
                   </div>
                 </div>
               </div>
@@ -490,14 +488,11 @@
                           <div class="icon-embed-xsmall w-embed">
                             <img src="images/meetups.svg" alt="" class="ecosystem_item-icon"/>
                           </div>
-                          <h3 blocks-non-deletable="true">Les meetups Chain64</h3>
+                          <h3 blocks-non-deletable="true">Les Meetups Chain64</h3>
                         </div>
                       </div>
                       <p class="text-color-secondary">
-                        Connect your wallet and have your profile populated
-                        automatically, without any manual data entry. And bring
-                        your reputation data with you to every app, rather than
-                        starting from scratch.
+                        Chaque mois, un accès est proposé à des rencontres dédiées à l'univers de la crypto, permettant ainsi d'aider et de soutenir chaque participant dans ses différentes envies concernant l'investissement dans les actifs numériques. Ces échanges visent à répondre aux interrogations de chacun sur ce sujet passionnant et en constante évolution.
                       </p>
                     </div>
                     <div data-w-id="2fb1dd00-4ef8-c6c1-bbbd-2d1618a7fdca" style="opacity: 1" class="features_item">
@@ -507,15 +502,12 @@
                             <img src="images/nos-experts.svg" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <h3 blocks-non-deletable="true">
-                            Nos experts
+                            Les experts
                           </h3>
                         </div>
                       </div>
                       <p class="text-color-secondary">
-                        Chain64 integrates with trusted sources like
-                        GitHub, Coinbase or LinkedIn, to issue credentials as
-                        onchain attestations. From self-reported resumes to
-                        verifiable, portable reputation.
+                        Dans cette communauté dynamique, des experts spécialisés dans l'écosystème blockchain s'investissent pour aider les participants à approfondir leurs connaissances. Grâce à leurs conseils et à leurs échanges, chacun peut développer ses compétences et enrichir sa compréhension des aspects techniques et pratiques de la blockchain.
                       </p>
                     </div>
                     <div data-w-id="2fb1dd00-4ef8-c6c1-bbbd-2d1618a7fdd6" style="opacity: 1" class="features_item">
@@ -524,14 +516,11 @@
                           <div class="icon-embed-xsmall w-embed">
                             <img src="images/nos-ambitions.svg" alt="" class="ecosystem_item-icon"/>
                           </div>
-                          <h3 blocks-non-deletable="true">Nos ambitions</h3>
+                          <h3 blocks-non-deletable="true">&Agrave; venir</h3>
                         </div>
                       </div>
                       <p class="text-color-secondary">
-                        Prove your reputation and access partner perks with your
-                        Builder Score. Integrate the Builder Score to
-                        personalize your own app, gate access to your community
-                        or curate the best talent in crypto.
+                       Les membres de cette association auront l'opportunité de participer plus activement aux diverses activités proposées. En effet, l'association envisagera de soumettre des demandes de subvention auprès de l'État, ce qui permettra d'organiser une variété de futurs ateliers, formations et événements enrichissants.
                       </p>
                     </div>
                   </div>
@@ -582,11 +571,11 @@
                     <div class="text-align-center">
                       <div class="max-width-medium align-center">
                         <div data-w-id="7bf11a6b-af57-d611-6c7f-90e5be37c8cc" style="opacity: 1" class="margin-bottom margin-xsmall">
-                          <div class="text-style-tagline">Nos missions</div>
+                          <div class="text-style-tagline">L'association</div>
                         </div>
                         <div class="margin-bottom margin-small">
                           <h2 blocks-non-deletable="true" data-w-id="7bf11a6b-af57-d611-6c7f-90e5be37c8d0" style="opacity: 1">
-                            Former & accompagner nos <span class="text-color-alternate">100+ membres actifs.</span>
+                            Former & Accompagner les <span class="text-color-alternate">100+ membres actifs.</span>
                           </h2>
                         </div>
                         <p data-w-id="7bf11a6b-af57-d611-6c7f-90e5be37c8d2" style="opacity: 1" class="text-size-large text-weight-normal text-color-secondary">
@@ -597,7 +586,7 @@
                   </div>
                   <div class="w-layout-grid ecosystem_grid-list">
                     <div id="w-node-_7bf11a6b-af57-d611-6c7f-90e5be37c8d5-cacf2ea2" class="w-layout-grid ecosystem_row">
-                      <a id="w-node-_7bf11a6b-af57-d611-6c7f-90e5be37c8d6-cacf2ea2" data-w-id="7bf11a6b-af57-d611-6c7f-90e5be37c8d6" style="opacity: 1" href="https://cryptoast.fr/" target="_blank" class="ecosystem_card w-inline-block">
+                      <a id="w-node-_7bf11a6b-af57-d611-6c7f-90e5be37c8d6-cacf2ea2" data-w-id="7bf11a6b-af57-d611-6c7f-90e5be37c8d6" style="opacity: 1" href="https://bitcoin.org/files/bitcoin-paper/bitcoin_fr.pdf" target="_blank" class="ecosystem_card w-inline-block">
                         <div class="ecosystem_card-content">
                           <div class="ecosystem_card-content-top">
                             <div class="margin-bottom margin-medium">
@@ -607,7 +596,7 @@
                               </div>
                             </div>
                             <p class="text-size-large text-weight-normal">
-                              L'information est à l'origine de toute connaissance. Chain64 vous recommande Cryptoast.
+                              L'information est à l'origine de toute connaissance. Chain64 vous recommande la lecture de livre blanc de Bitcoin.
                             </p>
                           </div>
                           <div class="margin-top margin-xlarge">
@@ -631,7 +620,7 @@
                           </div>
                         </div>
                       </a>
-                      <a id="w-node-_7bf11a6b-af57-d611-6c7f-90e5be37c8e7-cacf2ea2" data-w-id="7bf11a6b-af57-d611-6c7f-90e5be37c8e7" style="opacity: 1" href="https://www.coingecko.com/" target="_blank" class="ecosystem_card w-inline-block">
+                      <a id="w-node-_7bf11a6b-af57-d611-6c7f-90e5be37c8e7-cacf2ea2" data-w-id="7bf11a6b-af57-d611-6c7f-90e5be37c8e7" style="opacity: 1" href="https://www.meetup.com/le-meetup-basque-sur-crypto-blockchain-nft-et-web3/" target="_blank" class="ecosystem_card w-inline-block">
                         <div class="ecosystem_card-content">
                           <div class="ecosystem_card-content-top">
                             <div class="margin-bottom margin-medium">
@@ -641,7 +630,7 @@
                               </div>
                             </div>
                             <p class="text-size-large text-weight-normal">
-                              Vous souhaitez Approfondir vos connaissances, trouvez les dernières pépites avec Coingecko. 
+                              Vous souhaitez approfondir vos connaissances, venez participez aux meetups. 
                             </p>
                           </div>
                           <div class="margin-top margin-xlarge">
@@ -665,7 +654,7 @@
                           </div>
                         </div>
                       </a>
-                      <a id="w-node-_7bf11a6b-af57-d611-6c7f-90e5be37c8f8-cacf2ea2" data-w-id="7bf11a6b-af57-d611-6c7f-90e5be37c8f8" style="opacity: 1" href="https://defillama.com/" target="_blank" class="ecosystem_card w-inline-block">
+                      <a id="w-node-_7bf11a6b-af57-d611-6c7f-90e5be37c8f8-cacf2ea2" data-w-id="7bf11a6b-af57-d611-6c7f-90e5be37c8f8" style="opacity: 1" href="https://www.superprof.fr/maitrise-bitcoin-cryptomonnaies-blockchain-optimiser-achats-augmente-revenus-maximise-gains.html" target="_blank" class="ecosystem_card w-inline-block">
                         <div class="ecosystem_card-content">
                           <div class="ecosystem_card-content-top">
                             <div class="margin-bottom margin-medium">
@@ -675,7 +664,7 @@
                               </div>
                             </div>
                             <p class="text-size-large text-weight-normal">
-                              Prenez en main votre autonomie financière et plongez dans l'univers de la DeFi avec Defillama.
+                              Prenez en main votre autonomie financière et apprenez avec un expert dans le domaine.
                             </p>
                           </div>
                           <div class="margin-top margin-xlarge">
@@ -706,7 +695,8 @@
             </div>
           </div>
         </section>
-        <section id="cours" class="section_pricing">
+
+        <!-- <section id="cours" class="section_pricing">
           <div class="padding-global">
             <div class="container-large">
               <div class="padding-section-large">
@@ -979,7 +969,8 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
+
         <section id="temoignages" class="section_testimonials">
           <div class="padding-global">
             <div class="container-large">
@@ -993,13 +984,13 @@
                         </div>
                         <div class="margin-bottom margin-small">
                           <h2 blocks-non-deletable="true" style="opacity: 1" class="heading-style-h2">
-                            Approuvé en direct <br /><span
+                            Ce qu'en disent <br /><span
                               class="text-color-alternate"
-                              >par nos membres.</span>
+                              > les membres.</span>
                           </h2>
                         </div>
                         <p style="opacity: 1" class="text-size-large text-weight-normal text-color-secondary">
-                          Nos membres sont nos meilleurs ambassadeurs, venez les recontrer lors de nos meetups et rejoignez nous. 
+                          Partagez vos avis avec les autres membres, rencontrez-les lors des meetups et rejoignez l'association.
                         </p>
                       </div>
                     </div>
@@ -1064,19 +1055,15 @@
                     </a>
                     <a href="#" class="testimonials_card w-inline-block">
                       <div blocks-non-deletable="true" class="text-size-large text-weight-normal">
-                        “Chain64 plays a key role in ensuring that we
-                        have attendees with diverse backgrounds at ETHGlobal
-                        events. Their scholars consistently demonstrate high
-                        energy and creativity, and have won numerous prizes!”
+                        “Chain64 m'a apporté une meilleure vision de ce monde technologique et m'a très certainement évité des erreurs. Cela m'a également permis de rencontrer des personnes passionnées et pleines d'ambitions avec qui je peux discuter sur divers sujets rarement abordés.”
                       </div>
                       <div class="margin-top margin-xsmall">
                         <div class="testimonials_client">
                           <div>
-                            <img src="images/eth-global-logo.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <div class="testimonials_client-info">
                             <div class="text-color-secondary">
-                              Kartik Talwar, Co-founder
+                              Guizorg
                             </div>
                           </div>
                         </div>
@@ -1084,19 +1071,15 @@
                     </a>
                     <a href="#" class="testimonials_card w-inline-block">
                       <div blocks-non-deletable="true" class="text-size-large text-weight-normal">
-                        “A bad hire can be critical, but Chain64 tackle
-                        this by making professional reputation open and
-                        verifiable, and we believe the TP team is uniquely
-                        equipped to realize this vision.”
+                        “Fidèle visiteur de ces évènements qui sont finalement surtout des rencontres et discussions enrichissantes, c'est définitivement le rdv immanquable pour tout curieux de tech en général. Pas que crypto :)”
                       </div>
                       <div class="margin-top margin-xsmall">
                         <div class="testimonials_client">
                           <div>
-                            <img src="images/privy-logo.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <div class="testimonials_client-info">
                             <div class="text-color-secondary">
-                              Osker Lu, GTM Lead
+                              Frank Dupont, OpenGem
                             </div>
                           </div>
                         </div>
@@ -1104,18 +1087,15 @@
                     </a>
                     <a href="#" class="testimonials_card w-inline-block">
                       <div blocks-non-deletable="true" class="text-size-large text-weight-normal">
-                        &quot;Reputation is crucial within the Collective, and
-                        Chain64 is empowering Superchain builders to
-                        bring their reputation on-chain.”
+                        “Rejoindre Chain64 m’a permis de pousser mes connaissances de l’écosystème blockchain à un autre niveau. Valeurs communes, échanges qualitatifs et esprit convivial, les meet-ups sont toujours très enrichissants !”
                       </div>
                       <div class="margin-top margin-xsmall">
                         <div class="testimonials_client">
                           <div>
-                            <img src="images/optimism-logo.svg?v=1" loading="lazy" alt="" class="ecosystem_item-icon"/>
                           </div>
                           <div class="testimonials_client-info">
                             <div class="text-color-secondary">
-                              Brichis, Delegate
+                              Charlotte
                             </div>
                           </div>
                         </div>
@@ -1197,12 +1177,12 @@
                         <h1 blocks-non-deletable="true"data-w-id="ba17945f-200b-d2f7-8508-5e6846845f00" style="opacity: 1" class="heading-style-h2">
                           <span class="text-color-white"
                             >Rejoignez les 100+ membres.<br /></span
-                          >Démarrez avec Chain64.
+                          >Apprenez avec Chain64.
                         </h1>
                       </div>
                       <div class="margin-top margin-medium">
                         <div class="button-group is-center">
-                          <a style="opacity: 1" href="" target="_blank" class="button is-icon w-inline-block">
+                          <a style="opacity: 1" href="https://www.helloasso.com/associations/chain64/adhesions/adhesion-chain64" target="_blank" class="button is-icon w-inline-block">
                             <div>Devenir membre</div>
                             <div class="button-icon-wrapper">
                               <div style="
@@ -1264,37 +1244,7 @@
                     <a href="#" class="footer_logo-link w-nav-brand">
                       <img loading="lazy" src="images/chain64-full-logo.svg" alt=""/></a>
                     <div class="w-layout-grid footer_social-icons">
-                      <a href="" target="_blank" class="footer_social-link w-inline-block">
-                        <div class="icon-embed-xsmall w-embed">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 24 25" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
-                            <path
-                              d="M21.2846 20.5907H21.1689V19.8543C21.1689 19.5176 20.9058 19.2441 20.5797 19.2441V8.37612H21.232L22 5.69332H18.3282V3H5.42977V5.6828H2L2.76802 8.3656H3.42031V19.2441C3.09416 19.2441 2.83114 19.5176 2.83114 19.8543V20.5907H2.71541C2.38927 20.5907 2.12625 20.8643 2.12625 21.2009V21.9374H8.75434V21.2009C8.75434 20.8643 8.49132 20.5907 8.16518 20.5907H8.04945V19.8543C8.04945 19.5176 7.78643 19.2441 7.46028 19.2441H7.34456V13.2578H7.3656C7.57601 10.859 9.52236 8.98632 11.9001 8.98632C14.2777 8.98632 16.2241 10.8695 16.4345 13.2578H16.4555V19.2651C16.1925 19.3282 15.9821 19.5597 15.9821 19.8543V20.5907H15.8664C15.5402 20.5907 15.2772 20.8643 15.2772 21.2009V21.9374H21.9053V21.2009C21.9053 20.8643 21.6423 20.5907 21.3162 20.5907H21.2846Z"
-                              fill="currentColor"
-                            ></path>
-                          </svg>
-                        </div>
-                      </a>
-                      <a href="" target="_blank" class="footer_social-link w-inline-block">
-                        <div class="icon-embed-xsmall w-embed">
-                          <svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M17.1761 4H19.9362L13.9061 10.7774L21 20H15.4456L11.0951 14.4066L6.11723 20H3.35544L9.80517 12.7508L3 4H8.69545L12.6279 9.11262L17.1761 4ZM16.2073 18.3754H17.7368L7.86441 5.53928H6.2232L16.2073 18.3754Z"
-                              fill="CurrentColor"
-                            ></path>
-                          </svg>
-                        </div>
-                      </a>
-                      <a href="" target="_blank" class="footer_social-link w-inline-block">
-                        <div class="icon-embed-xsmall w-embed">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 25 25" fill="none"preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
-                            <path
-                              d="M10.301 6.454C10.1508 6.0421 9.99917 5.62681 9.99641 5.62137C9.92406 5.46164 9.75663 5.36104 9.58024 5.37871C9.46861 5.38755 6.82755 5.61185 5.13529 6.95426C4.25057 7.76039 2.48389 12.4734 2.48389 16.5483C2.48389 16.6203 2.50249 16.6903 2.53901 16.7528C3.75929 18.8667 7.08594 19.42 7.84387 19.4438C7.8487 19.4445 7.85283 19.4445 7.85697 19.4445C7.99064 19.4445 8.11604 19.3813 8.19597 19.2745L9.01592 18.1789C7.66128 17.9756 7.41667 17.7105 7.35948 17.6691C7.05355 17.4468 6.82755 17.1355 7.10179 16.7427C7.31263 16.4375 7.75499 16.3369 8.09399 16.5088C8.44127 16.6686 9.37077 17.1824 12.1303 17.1688C14.8706 17.1607 16.0737 16.5945 16.0909 16.5822C16.5512 16.3777 16.9102 16.4619 17.1341 16.7651C17.4008 17.1777 17.2106 17.457 16.906 17.6786C16.8488 17.7201 16.7104 17.8363 15.2551 18.1761L16.0647 19.2739C16.144 19.3813 16.2701 19.4438 16.4037 19.4438C16.4086 19.4438 16.4127 19.4438 16.4168 19.4431C17.1754 19.4193 20.5021 18.866 21.7217 16.7522C21.7582 16.6896 21.7768 16.6196 21.7768 16.5476C21.7768 12.4734 20.0101 7.76039 19.1034 6.93659C17.4331 5.61253 14.7921 5.38823 14.6805 5.37871C14.5041 5.36376 14.3366 5.46232 14.2643 5.62137C14.2615 5.62681 14.1141 6.0489 13.9714 6.45604C13.9714 6.45604 12.8476 6.29359 12.1303 6.29359C11.4131 6.29359 10.301 6.454 10.301 6.454ZM9.37422 15.1297C8.61283 15.1297 7.99615 14.2237 7.99615 13.1049C7.99615 11.9861 8.61283 11.0801 9.37422 11.0801C10.1384 10.9679 10.7357 11.9861 10.7523 13.1049C10.7523 14.2237 10.1356 15.1297 9.37422 15.1297ZM14.8865 15.1297C14.1251 15.1297 13.5084 14.2176 13.5084 13.0927C13.5084 11.9677 14.1251 11.0556 14.8865 11.0556C15.6479 11.0556 16.2645 11.9677 16.2645 13.0927C16.2645 14.2176 15.6479 15.1297 14.8865 15.1297Z"
-                              fill="currentColor"
-                            ></path>
-                          </svg>
-                        </div>
-                      </a>
-                      <a href="" class="footer_social-link w-inline-block">
+                      <a href="https://t.me/+5cFAmc2vIjw5Y2Zh" target="_blank" class="footer_social-link w-inline-block">
                         <div class="icon-embed-xsmall w-embed">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 24 24" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
                             <path
@@ -1308,20 +1258,18 @@
                   </div>
                   <div class="footer_link-column">
                     <div class="margin-bottom margin-xxsmall">
-                      <div class="text-weight-semibold">Espace membre</div>
+                      <div class="text-weight-semibold">Membre</div>
                     </div>
                     <div class="footer_link-list">
-                      <a href="/" target="_blank" class="footer_link">Se connecter</a>
+                      <a href="https://www.helloasso.com/associations/chain64/adhesions/adhesion-chain64" target="_blank" class="footer_link">Devenir membre</a>
                       <a href="lien-tally" target="_blank" class="footer_link">Prendre RDV</a>
-                      <a href="https://mirror.xyz/" target="_blank" class="footer_link">Blog</a>
                     </div>
                   </div>
                   <div class="footer_link-column">
                     <div class="margin-bottom margin-xxsmall">
-                      <div class="text-weight-semibold">Builders</div>
+                      <div class="text-weight-semibold">Outils</div>
                     </div>
                     <div class="footer_link-list">
-                      <a href="/" target="_blank" class="footer_link">Docs</a>
                       <a href="https://mempool.space/fr/" target="_blank" class="footer_link">Mempool</a>
                       <a href="https://github.com/eluane-b/Chain64" target="_blank" class="footer_link">GitHub</a>
                     </div>
@@ -1332,7 +1280,6 @@
                     </div>
                     <div class="footer_link-list">
                       <a href="lien-a-mettre" target="_blank" class="footer_link">Presse kit</a>
-                      <a href="lien-a-mettre" target="_blank" class="footer_link">Autre chose à mettre</a>
                       <a href="lien-a-mettre" target="_blank" class="footer_link">Mentions légales</a>
                     </div>
                   </div>
