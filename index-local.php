@@ -236,6 +236,18 @@
                 </a>
                 <a data-w-id="39afa5bd-8a2b-9edb-3029-675873bab8e0" href="#" class="banner_close-button w-inline-block">
                   <div class="icon-embed-small w-embed">
+                   <!--  <svg
+                      width="100%"
+                      height="100%"
+                      viewbox="0 0 32 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22.8354 22.864L22.3639 23.3354C22.1036 23.5957 21.6815 23.5957 21.4211 23.3354L16 17.9142L10.5788 23.3353C10.3185 23.5957 9.89638 23.5957 9.63603 23.3353L9.16462 22.8639C8.90427 22.6036 8.90427 22.1815 9.16462 21.9211L14.5858 16.5L9.16462 11.0788C8.90427 10.8185 8.90427 10.3964 9.16462 10.136L9.63602 9.66463C9.89637 9.40428 10.3185 9.40428 10.5788 9.66463L16 15.0858L21.4211 9.66462C21.6815 9.40427 22.1036 9.40427 22.3639 9.66462L22.8354 10.136C23.0957 10.3964 23.0957 10.8185 22.8354 11.0788L17.4142 16.5L22.8354 21.9211C23.0957 22.1815 23.0957 22.6036 22.8354 22.864Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg> -->
                   </div>
                 </a>
               </div>
@@ -512,6 +524,39 @@
             </div>
           </div>
         </section>
+   <!-- PARTNERSHIPS - DON'T ERASE        
+        <section data-w-id="ea6777cd-ef01-da25-7af6-73cc97efc1c3" class="section_logos">
+          <div class="padding-section-medium">
+            <div class="padding-global">
+              <div class="container-large">
+                <div class="logo_content-wrapper">
+                  <h3 blocks-non-deletable="true" data-w-id="ea6777cd-ef01-da25-7af6-73cc97efc1ca" style="opacity: 1">
+                    +XX <span class="text-color-alternate">partenaires</span>
+                    <br /><span class="text-color-secondary">et d'autres à venir...</span>
+                  </h3>
+                  <div data-w-id="f4aca60e-272f-0bc7-2545-74ab1af744f9" style="opacity: 1" class="div-block">
+                    <div class="logo_component">
+                      <div class="logo_list">
+                        <div class="logo_wrapper">
+                          <img src="images/base-logo.svg" alt="" class="logo_logo" />
+                        </div>
+                        <div class="logo_wrapper">
+                          <img src="images/binance-logo.svg" alt="" class="logo_logo" />
+                        </div>
+                        <div class="logo_wrapper">
+                          <img src="images/coinbase-logo.svg" alt="" class="logo_logo" />
+                        </div>
+                        <div class="logo_wrapper">
+                          <img src="images/dune-logo.svg" alt="" class="logo_logo" />
+                        </div>
+                      </div>
+                    <div class="section_logo3_gradient-overlay"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
         <section id="missions" class="section_ecosystem">
           <div class="padding-global">
             <div class="container-large">
@@ -645,6 +690,282 @@
             </div>
           </div>
         </section>
+
+        <!-- <section id="cours" class="section_pricing">
+          <div class="padding-global">
+            <div class="container-large">
+              <div class="padding-section-large">
+                <div class="pricing_component">
+                  <div class="margin-bottom margin-xxlarge">
+                    <div class="text-align-center">
+                      <div class="max-width-medium align-center">
+                        <div data-w-id="21498fc4-000d-cc9e-8fed-178ec938553e" style="opacity: 1" class="margin-bottom margin-xsmall">
+                          <div class="text-style-tagline">Cours</div>
+                        </div>
+                        <h2 blocks-non-deletable="true" data-w-id="21498fc4-000d-cc9e-8fed-178ec9385542" style="opacity: 1">
+                          Accédez au savoir<br /><span class="text-color-alternate">Découvrez nos offres.</span>
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-layout-grid pricing_grid-list">
+                    <div data-w-id="21498fc4-000d-cc9e-8fed-178ec9385547" style="opacity: 1" class="pricing_plan">
+                      <div class="margin-bottom margin-xxsmall">
+                        <div class="pricing_plan-title">Débuter</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <div class="text-color-secondary">
+                          Commencez votre parcours d'initié
+                        </div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <div blocks-non-deletable="true" class="heading-style-h2">
+                          Gratuit
+                        </div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <a href="" target="_blank" class="button is-secondary max-width-full w-button">Prendre un rdv</a>
+                      </div>
+                      <div class="text-size-small text-color-secondary">
+                        FEATURES
+                      </div>
+                      <div class="pricing_feature-list">
+                        <div id="w-node-_21498fc4-000d-cc9e-8fed-178ec938555c-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Accès aux meetups</div>
+                        </div>
+                        <div id="w-node-_21498fc4-000d-cc9e-8fed-178ec9385561-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Access to most recent Builder Score</div>
+                        </div>
+                        <div id="w-node-_21498fc4-000d-cc9e-8fed-178ec9385566-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Full access to user base (1M+)</div>
+                        </div>
+                        <div id="w-node-_16ce8592-7df0-6eb1-9213-760c09afe84e-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                             <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>50,000 API calls/month</div>
+                        </div>
+                        <div id="w-node-d96c0136-cae3-4ff3-5959-e54048a31cbe-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Basic community support via Telegram</div>
+                        </div>
+                        <div id="w-node-_1b05620d-2b16-3b5c-a01b-33ebbaf3b8c8-cacf2ea2" class="pricing_feature is-inactive">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Early access to new features</div>
+                        </div>
+                        <div id="w-node-d84e3d36-ee82-735f-3778-3d2e1770a377-cacf2ea2" class="pricing_feature is-inactive">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Create and customize Credentials</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-id="3730de92-a215-3e51-2ba9-015e6658451b" style="opacity: 1" class="pricing_plan">
+                      <div class="pricing_plan-highlight"></div>
+                      <div class="pricing_plan-content">
+                        <div class="margin-bottom margin-xxsmall">
+                          <div class="pricing_plan-title">Grandir</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <div class="text-color-secondary">
+                            Augmentez votre portée
+                          </div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <div class="pricing_plan-price">
+                            <div blocks-non-deletable="true" class="heading-style-h2">49 €</div>
+                            <div blocks-non-deletable="true" class="text-color-secondary"> / heure de cours
+                            </div>
+                          </div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <a href="" target="_blank" class="button max-width-full w-button">Prendre un rdv</a>
+                        </div>
+                        <div class="text-size-small text-color-secondary">
+                          FEATURES
+                        </div>
+                        <div class="pricing_feature-list">
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e6658452b-cacf2ea2" class="pricing_feature">
+                            <div class="pricing_icon-wrapper">
+                              <div class="icon-embed-xsmall w-embed">
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                              </div>
+                            </div>
+                            <div>Accès aux meetups</div>
+                          </div>
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e66584530-cacf2ea2" class="pricing_feature">
+                            <div class="pricing_icon-wrapper">
+                              <div class="icon-embed-xsmall w-embed">
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                              </div>
+                            </div>
+                            <div>Access to most recent Builder Score</div>
+                          </div>
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e66584535-cacf2ea2" class="pricing_feature">
+                            <div class="pricing_icon-wrapper">
+                              <div class="icon-embed-xsmall w-embed">
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                              </div>
+                            </div>
+                            <div>Full access to user base (1M+)</div>
+                          </div>
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e6658453a-cacf2ea2" class="pricing_feature">
+                            <div class="pricing_icon-wrapper">
+                              <div class="icon-embed-xsmall w-embed">
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                              </div>
+                            </div>
+                            <div>500,000 API calls/month</div>
+                          </div>
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e6658453f-cacf2ea2" class="pricing_feature">
+                            <div class="pricing_icon-wrapper">
+                              <div class="icon-embed-xsmall w-embed">
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                              </div>
+                            </div>
+                            <div>Priority support via Telegram or Email</div>
+                          </div>
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e66584544-cacf2ea2" class="pricing_feature">
+                            <div class="pricing_icon-wrapper">
+                              <div class="icon-embed-xsmall w-embed">
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                              </div>
+                            </div>
+                            <div>Early access to new features</div>
+                          </div>
+                          <div id="w-node-_3730de92-a215-3e51-2ba9-015e66584549-cacf2ea2" class="pricing_feature is-inactive">
+                            <div class="pricing_icon-wrapper">
+                              <div class="icon-embed-xsmall w-embed">
+                                <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                              </div>
+                            </div>
+                            <div>Create and customize Credentials</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="opacity: 1" class="pricing_plan">
+                      <div class="margin-bottom margin-xxsmall">
+                        <div class="pricing_plan-title">Croître</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <div class="text-color-secondary">
+                          Libérez un potentiel illimité
+                        </div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <div blocks-non-deletable="true" class="heading-style-h2">
+                          Sur-mesure
+                        </div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <a href="" target="_blank" class="button is-secondary max-width-full w-button">Nous contacter</a>
+                      </div>
+                      <div class="text-size-small text-color-secondary">
+                        FEATURES
+                      </div>
+                      <div class="pricing_feature-list">
+                        <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a903401-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Accès aux meetups</div>
+                        </div>
+                        <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a903406-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Access to most recent Builder Score</div>
+                        </div>
+                        <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a90340b-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Full access to user base (1M+)</div>
+                        </div>
+                        <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a903410-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>2M+ API calls/month</div>
+                        </div>
+                        <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a903415-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Premium support on your channel</div>
+                        </div>
+                        <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a90341a-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Early access to new features</div>
+                        </div>
+                        <div id="w-node-_59d6c652-e53e-6f9c-8973-63721a90341f-cacf2ea2" class="pricing_feature">
+                          <div class="pricing_icon-wrapper">
+                            <div class="icon-embed-xsmall w-embed">
+                              <img src="images/check.svg" alt="" class="ecosystem_item-icon"/>
+                            </div>
+                          </div>
+                          <div>Create and customize Credentials</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="margin-top margin-small">
+                    <div class="text-align-center">
+                      <div class="text-size-large text-weight-normal text-color-secondary">
+                        Vous ne savez pas quel forfait vous convient le mieux ?<br />Contactez-nous par
+                        <a href="" class="text-style-link text-color-alternate">e-mail</a>.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+
         <section id="temoignages" class="section_testimonials">
           <div class="padding-global">
             <div class="container-large">
@@ -953,5 +1274,5 @@ integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
 crossorigin="anonymous"
 ></script>
 <script src="js/webflow.js?v=202411050000" type="text/javascript"></script>
-</body>
+  </body>
 </html>
