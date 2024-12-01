@@ -1,2 +1,2 @@
-# meetups-Pays-Basque
-Website for our community
+# Meetups Pays Basque
+Site internet de l'association Chain64
